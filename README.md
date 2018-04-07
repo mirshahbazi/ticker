@@ -25,6 +25,16 @@ Add the ticker dependency to your `build.gradle`.
 implementation 'com.robinhood.ticker:ticker:1.2.2'
 ```
 
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    
+    
+compile 'com.github.mirshahbazi:ticker:1.2.2'
 
 Usage
 -----
