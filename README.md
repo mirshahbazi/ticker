@@ -33,9 +33,9 @@ allprojects {
 	}
     
     
-    
+```groovy    
 compile 'com.github.mirshahbazi:ticker:1.2.2'
-
+```
 Usage
 -----
 
